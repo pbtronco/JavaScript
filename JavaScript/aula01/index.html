@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css1.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://kit.fontawesome.com/d030f93cec.js" crossorigin="anonymous"></script>
+    <title>JavaScript</title>
+
+    <!--Implementar JavaScript-->
+    <script>
+        //alert("Ola Mundo!");
+        //alert("Pablo Borges Tronco");
+        var nome = "Pablo Borges Tronco";
+        var meuTime = "Grêmio";
+        var idade = 29;
+        //alert("Meu nome é: " + nome + ". Eu torço para o " + meuTime + "!");
+        //alert("Olá, eu tenho " + idade + " anos.");
+
+        var a = 500;
+        var b = 2;
+
+        var soma = a + b;
+        var subtracao = a - b;
+        var multiplicacao = a * b;
+        var divisao = a / b;
+        var raiz = Math.sqrt(16);
+        var potencia = Math.pow(10,2);
+        alert("Soma= " + soma + "\nSubtração= " + subtracao + "\nMultiplicação= " + multiplicacao + "\nDivisão= " + divisao + "\nRaiz= "+raiz+"\nPotência= "+potencia);
+        // testar o tipo === 
+        if(a === 500){
+            alert("A variável a igual a 500.");
+        }else{
+            alert("A variável a é diferente de 500.");
+        }
+        //identifica true na variavel maiorIdade se idade for de 
+        if(idade >= 18){
+            var maiorIdade = true;
+        }else{
+            var maiorIdade = false;
+        }
+        //mesma coisa com operador termário
+        var maiorIdade = idade >= 18 ? true : false;
+        if(maiorIdade){
+            alert('É de maior!');
+        }else{
+            alert("É de menor!");
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <h1 class="start">
+            <span class="end1">J</span><span class="middle1">avaScrip</span>
+            <span class="middle2"><i class="fa-brands fa-js"></i></span><span class="end2">t</span>
+        </h1>
+    </div>
+</body>
+
+</html>
