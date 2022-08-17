@@ -1,0 +1,38 @@
+.w-30{
+    width: 120px;
+}
+.css {
+    background: linear-gradient(90deg, #262621, #469bfc);
+}
+.texto-tabela{
+    color: #A3BFD9;
+}
+p{
+    color: #A3BFD9;
+}
+h2{
+    color: #484848;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  h2 span{
+    transition: .5s linear;
+  }
+  h2:hover span:nth-child(1){
+    margin-right: 5px;
+  }
+  h2:hover span:nth-child(1):after{
+    content: "";
+  }
+  h2:hover span:nth-child(2){
+    margin-left: 30px;
+  }
+  h2:hover span{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+  }
